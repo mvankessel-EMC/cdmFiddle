@@ -2,7 +2,7 @@
 #'
 #' @import shiny
 #' @import shinyAce
-#' @import DT
+#' @importFrom DT datatable
 #' @import Eunomia
 #' @import DatabaseConnector
 #' @export

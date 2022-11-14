@@ -38,6 +38,6 @@ Run the Shiny application
 
 ``` r
 library(cdmFiddle)
-cdmFiddle::runFiddle()
+runFiddle()
 ```
 

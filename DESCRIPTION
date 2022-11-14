@@ -15,8 +15,7 @@ Imports:
   shinyAce,
   DT,
   DatabaseConnector
-Remotes:
-  OHDSI/Eunomia
+Remotes: github::OHDSI/Eunomia
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3

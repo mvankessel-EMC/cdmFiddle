@@ -1,6 +1,10 @@
 #' runFiddle
 #'
 #' @import shiny
+#' @import shinyAce
+#' @import DT
+#' @import Eunomia
+#' @import DatabaseConnector
 #' @export
 
 runFiddle <- function() {

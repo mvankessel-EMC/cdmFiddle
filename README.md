@@ -1,8 +1,6 @@
 
 # cdmFiddle
 
----
-
 The goal of cdmFiddle is to to provide an interactive interface with the OMOP 
 CDM through a Shiny application.
 

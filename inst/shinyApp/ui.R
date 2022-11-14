@@ -1,8 +1,6 @@
 #' UI
 #'
-#' @importFrom shiny shinyUI fluidPage titlePanel sidebarLayout sidebarPanel
-#' actionButton mainPanel
-#' @importFrom DT DTOutput
+#' @import shiny
 #' @export
 ui <- shiny::shinyUI(
   shiny::fluidPage(
@@ -12,7 +10,7 @@ ui <- shiny::shinyUI(
         shiny::uiOutput("ace_editor"),
         shiny::actionButton("query", "Query")),
       shiny::mainPanel(
-        DT::DTOutput(outputId = "table"))
+        DT::dataTableOutput(outputId = "table"))
     )
   )
 )

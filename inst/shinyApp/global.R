@@ -3,11 +3,12 @@
 #' @param table table name in database
 #' @param connection connection object
 #'
-#' @import DatabaseConnector glue
+#' @import DatabaseConnector
+#' @import Eunomia
 getCols <- function(table, connection) {
   tolower(DatabaseConnector::renderTranslateQuerySql(
     connection,
-    glue::glue("PRAGMA table_info(", table, ")"))$NAME)
+    paste0("PRAGMA table_info(", table, ")"))$NAME)
 }
 
 #' connectToDb
@@ -15,10 +16,9 @@ getCols <- function(table, connection) {
 #' @return DatabaseConnector connection object
 #'
 #' @import DatabaseConnector
-connectToDb <- function(
-    connectionDetails = Eunomia::getEunomiaConnectionDetails(),
-    schema = "main") {
-  e <<- new.env()
-  e$connection <- DatabaseConnector::connect(connectionDetails)
-  e$schema <- schema
+#' @import Eunomia
+connectToDb <- function() {
+  connectionDetails = Eunomia::getEunomiaConnectionDetails()
+  connection <- DatabaseConnector::connect(connectionDetails)
+  return(connection)
 }

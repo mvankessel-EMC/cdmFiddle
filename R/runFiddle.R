@@ -1,7 +1,6 @@
 #' runFiddle
 #'
-#' @importFrom shiny shinyApp
-#' @importFrom here here
+#' @import shiny
 #' @export
 
 runFiddle <- function() {

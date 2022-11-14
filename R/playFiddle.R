@@ -1,13 +1,13 @@
-#' runFiddle
+#' playFiddle
 #'
 #' @import shiny
 #' @import shinyAce
-#' @importFrom DT datatable
+#' @import DT
 #' @import Eunomia
 #' @import DatabaseConnector
+#'
 #' @export
-
-runFiddle <- function() {
+playFiddle <- function() {
   appDir <- system.file(package = "cdmFiddle", "shinyApp")
   if (appDir == "") {
     stop("Could not find shiny application")

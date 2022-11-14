@@ -10,7 +10,7 @@ ui <- shiny::shinyUI(
         shiny::uiOutput("ace_editor"),
         shiny::actionButton("query", "Query")),
       shiny::mainPanel(
-        shiny::dataTableOutput(outputId = "table"))
+        DT::dataTableOutput(outputId = "table"))
     )
   )
 )

@@ -44,7 +44,7 @@ server <- function(input, output, session) {
   })
 
   # Update table with result
-  output$table <- shiny::isolate(DT::renderDataTable({
+  output$table <- shiny::isolate(shiny::renderDataTable({
     getData()}))
 
   # Autocompletion stuff

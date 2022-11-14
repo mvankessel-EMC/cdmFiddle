@@ -27,7 +27,7 @@ You can install the development version of cdmFiddle like so:
 
 ``` r
 install.packages("remotes")
-remotes::install_github("cdmFiddle")
+remotes::install_github("mvankessel-EMC/cdmFiddle")
 ```
 
 ## Example
@@ -36,6 +36,6 @@ Run the Shiny application
 
 ``` r
 library(cdmFiddle)
-runFiddle()
+playFiddle()
 ```
 

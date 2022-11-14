@@ -12,7 +12,8 @@ LazyData: true
 RoxygenNote: 7.2.1
 Imports: 
   shiny,
-  shinyAce
+  shinyAce,
+  DT
 Remotes:
   OHDSI/Eunomia,
   OHDSI/DatabaseConnector

@@ -1,0 +1,61 @@
+2022-11-11 14:28:25	[Main thread]	INFO	TreatmentPatterns	executeTreatmentPatterns	Running package version 1.0.0
+2022-11-11 14:28:25	[Main thread]	INFO	TreatmentPatterns	executeTreatmentPatterns	runCreateCohorts TRUE
+2022-11-11 14:28:25	[Main thread]	INFO	DatabaseConnector	connect	Connecting using SQLite driver
+2022-11-11 14:28:26	[Main thread]	INFO	TreatmentPatterns	createCohorts	Creating table for the cohorts
+2022-11-11 14:28:26	[Main thread]	INFO	TreatmentPatterns	createCohorts	Creating inclusion rule statistics tables
+2022-11-11 14:28:26	[Main thread]	INFO	TreatmentPatterns	createCohorts	Insert cohort of interest into the cohort table
+2022-11-11 14:28:30	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 0.045 secs
+2022-11-11 14:28:34	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 0.0202 secs
+2022-11-11 14:28:38	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 0.0142 secs
+2022-11-11 14:28:42	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 0.172 secs
+2022-11-11 14:28:46	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 0.0154 secs
+2022-11-11 14:28:50	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 0.0161 secs
+2022-11-11 14:28:50	[Main thread]	INFO	TreatmentPatterns	createCohorts	Counting cohorts
+2022-11-11 14:28:50	[Main thread]	WARN	TreatmentPatterns	createCohorts	Cohort definition 1,10,11,13,14 has zero count. 
+2022-11-11 14:28:50	[Main thread]	INFO	TreatmentPatterns	createCohorts	createCohorts done.
+2022-11-11 14:28:50	[Main thread]	INFO	TreatmentPatterns	executeTreatmentPatterns	runCohortCharacterization TRUE
+2022-11-11 14:28:50	[Main thread]	INFO	DatabaseConnector	connect	Connecting using SQLite driver
+2022-11-11 14:28:50	[Main thread]	FATAL	TreatmentPatterns	$<-	replacement has 1 row, data has 0
+2022-11-11 14:30:12	[Main thread]	INFO	DatabaseConnector	connect	Connecting using SQLite driver
+2022-11-11 14:30:12	[Main thread]	INFO	TreatmentPatterns	createCohorts	Creating table for the cohorts
+2022-11-11 14:30:12	[Main thread]	INFO	TreatmentPatterns	createCohorts	Creating inclusion rule statistics tables
+2022-11-11 14:30:12	[Main thread]	INFO	TreatmentPatterns	createCohorts	Insert cohort of interest into the cohort table
+2022-11-11 14:30:16	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 0.0332 secs
+2022-11-11 14:30:20	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 0.0151 secs
+2022-11-11 14:30:23	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 0.0154 secs
+2022-11-11 14:30:27	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 0.173 secs
+2022-11-11 14:30:31	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 0.0153 secs
+2022-11-11 14:30:35	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 0.0155 secs
+2022-11-11 14:30:35	[Main thread]	INFO	TreatmentPatterns	createCohorts	Counting cohorts
+2022-11-11 14:30:35	[Main thread]	WARN	TreatmentPatterns	createCohorts	Cohort definition 1,10,11,13,14 has zero count. 
+2022-11-11 14:30:35	[Main thread]	INFO	TreatmentPatterns	createCohorts	createCohorts done.
+2022-11-11 14:31:20	[Main thread]	INFO	TreatmentPatterns	executeTreatmentPatterns	Running package version 1.0.0
+2022-11-11 14:31:20	[Main thread]	INFO	TreatmentPatterns	executeTreatmentPatterns	runCreateCohorts TRUE
+2022-11-11 14:31:20	[Main thread]	INFO	DatabaseConnector	connect	Connecting using SQLite driver
+2022-11-11 14:31:20	[Main thread]	INFO	TreatmentPatterns	createCohorts	Creating table for the cohorts
+2022-11-11 14:31:20	[Main thread]	INFO	TreatmentPatterns	createCohorts	Creating inclusion rule statistics tables
+2022-11-11 14:31:20	[Main thread]	INFO	TreatmentPatterns	createCohorts	Insert cohort of interest into the cohort table
+2022-11-11 14:31:24	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 0.0337 secs
+2022-11-11 14:31:28	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 0.0153 secs
+2022-11-11 14:31:32	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 0.0149 secs
+2022-11-11 14:31:35	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 0.168 secs
+2022-11-11 14:31:39	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 0.0164 secs
+2022-11-11 14:31:43	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 0.021 secs
+2022-11-11 14:31:43	[Main thread]	INFO	TreatmentPatterns	createCohorts	Counting cohorts
+2022-11-11 14:31:43	[Main thread]	WARN	TreatmentPatterns	createCohorts	Cohort definition 1,10,11,13,14 has zero count. 
+2022-11-11 14:31:43	[Main thread]	INFO	TreatmentPatterns	createCohorts	createCohorts done.
+2022-11-11 14:31:43	[Main thread]	INFO	TreatmentPatterns	executeTreatmentPatterns	runCohortCharacterization TRUE
+2022-11-11 14:31:43	[Main thread]	INFO	DatabaseConnector	connect	Connecting using SQLite driver
+2022-11-11 14:31:43	[Main thread]	FATAL	TreatmentPatterns	$<-	replacement has 1 row, data has 0
+2022-11-11 14:42:05	[Main thread]	FATAL			could not find function "%dopar%"
+2022-11-11 14:42:09	[Main thread]	WARN	foreach	getDoPar	executing %dopar% sequentially: no parallel backend registered
+2022-11-11 14:42:09	[Main thread]	FATAL	iterators	iter	object 'path' not found
+2022-11-11 14:42:24	[Main thread]	FATAL	iterators	iter	object 'path' not found
+2022-11-11 14:45:44	[Main thread]	FATAL	iterators	iter	object 'sqls' not found
+2022-11-11 14:45:49	[Main thread]	FATAL	doParallel	fun	unable to find variable "con"
+2022-11-11 14:45:57	[Main thread]	INFO	DatabaseConnector	connect	Connecting using SQLite driver
+2022-11-11 14:46:01	[Main thread]	WARN	doParallel	fun	already exporting variable(s): con
+2022-11-11 14:46:02	[Main thread]	FATAL	doParallel	fun	task 1 failed - "Error executing SQL: external pointer is not valid An error report has been created at  D:/Users/mvankessel/Documents/R-Packages/cdmFiddle/errorReportSql.txt"
+2022-11-11 14:46:27	[Main thread]	WARN	doParallel	fun	already exporting variable(s): conDet
+2022-11-11 14:47:05	[Main thread]	WARN	doParallel	fun	already exporting variable(s): conDet
+2022-11-11 14:49:17	[Main thread]	WARN	doParallel	fun	already exporting variable(s): conDet

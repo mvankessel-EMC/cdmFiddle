@@ -1,6 +1,10 @@
 
 # cdmFiddle
 
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/mvankessel-EMC/cdmFiddle/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/mvankessel-EMC/cdmFiddle/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
+
 The goal of cdmFiddle is to to provide an interactive interface with the OMOP 
 CDM through a Shiny application.
 

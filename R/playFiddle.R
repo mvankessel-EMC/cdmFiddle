@@ -2,9 +2,9 @@
 #'
 #' @import shiny
 #' @import shinyAce
-#' @import DT
 #' @import Eunomia
 #' @import DatabaseConnector
+#' @importFrom data.table data.table
 #'
 #' @export
 playFiddle <- function() {

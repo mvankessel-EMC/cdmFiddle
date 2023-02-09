@@ -2,9 +2,6 @@
 #'
 #' @param table table name in database
 #' @param connection connection object
-#'
-#' @import DatabaseConnector
-#' @import Eunomia
 getCols <- function(table, connection) {
   tolower(DatabaseConnector::renderTranslateQuerySql(
     connection,

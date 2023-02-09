@@ -3,9 +3,6 @@
 #' @param input input from ui
 #' @param output output to ui
 #' @param session session object of client
-#' @import DatabaseConnector
-#' @import shinyAce
-#' @import shiny
 
 source("global.R")
 
@@ -39,12 +36,11 @@ server <- function(input, output, session) {
       connection = connection,
       sql = checkQuery(),
       errorReportFile = "")
-
-    DT::datatable(data, options = list(scrollX = TRUE))
+    data.table::data.table(data, options = list(scrollX = TRUE))
   })
 
   # Update table with result
-  output$table <- shiny::isolate(DT::renderDataTable({
+  output$table <- shiny::isolate(shiny::renderDataTable({
     getData()}))
 
   # Autocompletion stuff
